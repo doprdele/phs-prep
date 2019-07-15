@@ -5,9 +5,11 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-    js: www/keep_alive.js
 runtime: shiny_prerendered
 ---
+```{r keepalive, context="server", echo=FALSE}
+session$allowReconnect("force")
+```
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(fig.align = "center",
@@ -32,15 +34,6 @@ cdf_func <- function(x, fx){
   title(ylab="F(x)", line = 2, xlab = "x")
 }
 
-```
-```{r ralive, context="render", echo=FALSE}
-textOutput("keep_alive")
-```
-```{r salive, context="server", echo=FALSE}
-output$keep_alive <- renderText({
-  req(input$alive_count)
-  input$alive_count
-})
 ```
 ## Why and how
 
