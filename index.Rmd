@@ -7,9 +7,6 @@ output:
     css: www/style.css
 runtime: shiny_prerendered
 ---
-```{r keepalive, context="server", echo=FALSE}
-session$allowReconnect("force")
-```
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(fig.align = "center",
