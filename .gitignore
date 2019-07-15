@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 packrat/lib*/
+index_cache
