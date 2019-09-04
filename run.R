@@ -8,7 +8,7 @@ if (length(args) == 0) {
 }
 
 print(paste("Listening on port", port))
-dir.create("/tmp")
+dir.create("./tmp")
 rmarkdown::run(dir=getwd(),
 	       render_args = list(output_dir="./tmp",
 			          intermediates_dir="./tmp/intermediates"	
