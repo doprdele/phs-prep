@@ -11,8 +11,8 @@ print(paste("Listening on port", port))
 
 
 rmarkdown::run(dir = getwd(),
-	       render_args = list(output_dir = "/app",
-				  intermediates_dir = "/app"),
+	       render_args = list(output_dir = ".",
+				  intermediates_dir = "."),
                shiny_args = list(host = "127.0.0.1",
                                  port = as.numeric(port)))
 
