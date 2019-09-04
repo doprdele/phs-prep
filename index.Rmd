@@ -5,7 +5,8 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-    self_contained: true
+    self_contained: false
+    progressive: true
 runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}

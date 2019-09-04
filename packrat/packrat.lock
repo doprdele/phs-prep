@@ -291,20 +291,11 @@ Version: 0.3.4
 Hash: 6a5220d1a973463418286038095d8c0b
 
 Package: rmarkdown
-Source: github
-Version: 1.15.1
-Hash: 1b8c99df2c04b2c6a68288bf9bc3a35e
+Source: CRAN
+Version: 1.15
+Hash: 70ecbccb919ee0d1ce9c21b6072c1bc1
 Requires: base64enc, evaluate, htmltools, jsonlite, knitr, mime,
     stringr, tinytex, xfun, yaml
-GithubRepo: rmarkdown
-GithubUsername: rstudio
-GithubRef: master
-GithubSha1: ff285a071d5457d37a227a7526610c297a898fd4
-RemoteHost: api.github.com
-RemoteRepo: rmarkdown
-RemoteUsername: rstudio
-RemoteRef: master
-RemoteSha: ff285a071d5457d37a227a7526610c297a898fd4
 
 Package: roxygen2
 Source: CRAN
