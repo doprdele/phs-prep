@@ -5,7 +5,7 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-runtime: render
+runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}
 library(learnr)
