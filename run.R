@@ -7,12 +7,11 @@ if (length(args) == 0) {
   port <- args[1]
 }
 
+dir.create("./tmp")
 print(paste("Listening on port", port))
-
-
 rmarkdown::run(dir = getwd(),
-	       render_args = list(output_dir = ".",
-				  intermediates_dir = "."),
+	       render_args = list(output_dir = "./tmp",
+				  intermediates_dir = "./tmp/intermediate"),
                shiny_args = list(host = "127.0.0.1",
                                  port = as.numeric(port)))
 
