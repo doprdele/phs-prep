@@ -8,6 +8,7 @@ output:
     self_contained: false
     copy_resources: true
     clean: false
+    pandoc_args: [ "--log", "/dev/stdout" ]
 runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}
