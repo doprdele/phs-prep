@@ -1,4 +1,4 @@
-# obtain port argument (if given) bump bump bump bump bump bump b bump
+# obtain port argument (if given) bump bump bump bump bump bump b bump bu
 args <- commandArgs(trailingOnly = TRUE)
 
 if (length(args) == 0) {
