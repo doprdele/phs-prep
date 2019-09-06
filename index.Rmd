@@ -5,12 +5,10 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-    clean: true
 runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}
 library(learnr)
-learnr::initialize_tutorial()
 knitr::opts_chunk$set(fig.align = "center",
                       cache = TRUE)
 tutorial_options(exercise.timelimit = 60)
