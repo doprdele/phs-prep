@@ -5,8 +5,8 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-    self_contained: true
     clean: true
+    pandoc_args: ["--self-contained"]
 runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}
