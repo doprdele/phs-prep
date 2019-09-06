@@ -5,9 +5,8 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-    self_contained: false
-    copy_resources: true
-    clean: false
+    self_contained: true
+    clean: true
 runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}
