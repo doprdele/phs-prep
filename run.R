@@ -8,6 +8,6 @@ if (length(args) == 0) {
 }
 
 print(paste("Listening on port", port))
-rmarkdown::run(dir=getwd(),
+rmarkdown::run(
                shiny_args = list(host = "127.0.0.1",
                                  port = as.numeric(port)))
