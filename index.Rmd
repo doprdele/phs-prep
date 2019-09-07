@@ -5,8 +5,7 @@ output:
     theme: paper
     version: 1.1
     css: www/style.css
-    clean: false
-    copy_resources: no
+    copy_resources: yes
 runtime: shiny_prerendered
 ---
 ```{r setup, include=FALSE}
