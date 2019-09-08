@@ -328,6 +328,12 @@ Hash: a48cf01573400333efa51dc999ab6447
 Requires: R6, crayon, digest, htmltools, httpuv, jsonlite, later, mime,
     promises, rlang, sourcetools, xtable
 
+Package: shinyAce
+Source: CRAN
+Version: 0.4.0
+Hash: c98761e41df5c9524811800042ace1fd
+Requires: jsonlite, shiny
+
 Package: sourcetools
 Source: CRAN
 Version: 0.1.7
